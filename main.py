@@ -6,7 +6,7 @@
 #The program returns the username and domain
 
 #CODE:
-lst = list(map(str, input("Enter E-Mail ID/s separated by commas: ").split(",")))
+lst = list(map(str,input("Enter E-Mail ID/s separated by commas: ").split(",")))
 
 for a in lst:
     username = a[:a.index('@')]
